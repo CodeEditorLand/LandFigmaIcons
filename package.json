@@ -1,10 +1,4 @@
 {
-	"name": "@codeeditorland/icons-figma",
-	"description": "A Figma plugin to use VS Code icons",
-	"main": "code.js",
-	"scripts": {
-		"build": "npx webpack"
-	},
 	"dependencies": {
 		"@gregoranders/csv": "0.0.13",
 		"css-loader": "7.1.2",
@@ -17,5 +11,11 @@
 		"ts-loader": "9.5.2",
 		"url-loader": "4.1.1"
 	},
-	"devDependencies": {}
+	"description": "A Figma plugin to use VS Code icons",
+	"devDependencies": {},
+	"main": "code.js",
+	"name": "@codeeditorland/icons-figma",
+	"scripts": {
+		"build": "npx webpack"
+	}
 }
