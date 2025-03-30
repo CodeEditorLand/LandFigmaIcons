@@ -1,9 +1,32 @@
 {
 	"name": "@codeeditorland/icons-figma",
+	"version": "0.0.1",
+	"private": false,
 	"description": "A Figma plugin to use VS Code icons",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandFigmaIcons#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandFigmaIcons/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandFigmaIcons.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "code.js",
 	"scripts": {
-		"build": "npx webpack"
+		"build": "npx webpack",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"@gregoranders/csv": "0.0.13",
@@ -17,5 +40,10 @@
 		"ts-loader": "9.5.2",
 		"url-loader": "4.1.1"
 	},
-	"devDependencies": {}
+	"devDependencies": {
+		"@playform/build": "0.2.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
