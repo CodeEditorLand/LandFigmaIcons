@@ -41,7 +41,7 @@
 		"url-loader": "4.1.1"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.1"
+		"@playform/build": "0.2.2"
 	},
 	"publishConfig": {
 		"access": "public"
