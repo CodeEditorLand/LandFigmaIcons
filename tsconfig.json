@@ -1,18 +1,8 @@
 {
-	"compilerOptions": {
-		"baseUrl": "./",
-		"module": "esnext",
-		"moduleResolution": "node",
-		"outDir": "Target",
-		"resolveJsonModule": true,
-		"rootDir": "src",
-		"target": "es6"
-	},
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"src",
-		"src",
-		"src",
-		"src"
-	]
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  }
 }
